@@ -1,4 +1,5 @@
 import { menuItems } from "@/constants/MenuItems"
+import { role } from "@/lib/data"
 import Image from "next/image"
 import Link from "next/link"
 import React from "react"
@@ -12,7 +13,7 @@ const Menu = () => {
             {i.title}
           </span>
           {i.items.map((item) => {
-            if (item.visible.includes("admin")) {
+            if (item.visible.includes(role)) {
               return (
                 <Link
                   href={item.href}

@@ -1,5 +1,6 @@
 import Announcements from "./Announcements"
 import AttendanceChart from "./AttendanceChart"
+import BigCalendar from "./BigCalender"
 import CountChart from "./CountCharts"
 import EventCalendar from "./EventCalendar"
 import FinanceChart from "./FinanceChart"
@@ -16,4 +17,5 @@ export {
   FinanceChart,
   EventCalendar,
   Announcements,
+  BigCalendar,
 }
